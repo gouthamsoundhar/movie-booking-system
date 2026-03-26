@@ -1,0 +1,7 @@
+--INSERT INTO SHOWS (id, movie_id, show_time) VALUES (1, 101, '10AM');
+
+--INSERT INTO SEAT (id, show_id, seat_number, status, version) VALUES (1, 1, 'A1', 'AVAILABLE', 0);
+--INSERT INTO SEAT (id, show_id, seat_number, status, version) VALUES (2, 1, 'A2', 'AVAILABLE', 0);
+-- INSERT INTO SEAT (id, show_id, seat_number, status, version) VALUES (3, 1, 'A3', 'AVAILABLE', 0);
+--INSERT INTO SEAT (id, show_id, seat_number, status, version) VALUES (4, 1, 'A4', 'AVAILABLE', 0);
+--INSERT INTO SEAT (id, show_id, seat_number, status, version) VALUES (5, 1, 'A5', 'AVAILABLE', 0);

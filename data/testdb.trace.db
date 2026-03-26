@@ -1,0 +1,13 @@
+2026-03-26 06:50:41.356001+05:30 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * from seat\000d\000a\000d\000a[*]select * from movie"; SQL statement:
+select * from seat
+
+select * from movie [42000-240]
+2026-03-26 07:45:08.845675+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SHOWS" not found; SQL statement:
+INSERT INTO SHOWS (id, movie_id, show_time) VALUES (1, 101, '10AM') [42102-240]
+2026-03-26 08:03:51.107880+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * from movie\000d\000a\000d\000a[*]select * from seat"; SQL statement:
+select * from movie
+
+select * from seat [42000-240]
